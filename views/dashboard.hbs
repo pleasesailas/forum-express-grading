@@ -1,8 +1,8 @@
 {{> restaurant-header}}
 <hr>
 <ul>
-    <li>瀏覽次數: {{restaurant.viewCounts}}</li>
-    <li>評論數: {{restaurant.Comments.length}}</li>
-    <li>收藏數: {{restaurant.favoritedCount}}</li>
+    <li>瀏覽次數: <strong>{{restaurant.viewCounts}}</strong></li>
+    <li>評論數: <strong>{{restaurant.Comments.length}}</strong></li>
+    <li>收藏數: <strong>{{restaurant.FavoritedUsers.length}}</strong></li>
 </ul>
-<a class="btn btn-outline-primary" href="javascript:history.back()">回上一頁</a>
+<a class="btn btn-outline-primary ms-3 mt-2" href="javascript:history.back()">回上一頁</a>
